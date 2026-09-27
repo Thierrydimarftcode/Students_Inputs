@@ -24,5 +24,3 @@ Aplikasi web dinamis berbasis **PHP Native** dan **MySQL** yang digunakan untuk 
 - **Web Server:** Apache (via XAMPP / Laragon)
 
 ---
-
-## ⚙️ Cara Menjalankan Project Secara Lokal
