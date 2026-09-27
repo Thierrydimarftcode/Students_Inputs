@@ -1,6 +1,6 @@
 <?php
 
-include 'Koneksi.php';
+include 'config/Koneksi.php';
 
 $nama= $_POST['nama'];
 $email= $_POST['email'];
