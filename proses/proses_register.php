@@ -1,6 +1,6 @@
 <?php
 // Pemanggilan koneksi
-include "koneksi.php";
+include "config/koneksi.php";
 
 $nama = $_POST['nama'];
 $email = $_POST['email'];
