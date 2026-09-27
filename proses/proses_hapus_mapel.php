@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.php';
+include 'config/koneksi.php';
 
 $id = $_GET['id'];
 $query = mysqli_query($koneksi, "DELETE FROM mata_pelajaran WHERE id='$id'");
