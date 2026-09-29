@@ -4,7 +4,7 @@ include "config/koneksi.php";
 
 $nama = $_POST['nama'];
 $email = $_POST['email'];
-$jurusan = $_POST['jurusan'];
+$jurusan = $_POST['jurusan']; 
 $password = $_POST['password'];
 
 // Enkripsi password
