@@ -4,7 +4,7 @@ if($_SESSION['status'] != "login"){
     header("location:login.php");
     exit();
 }
-include 'koneksi.php';
+include 'config/koneksi.php';
 ?>
 <!DOCTYPE html>
 <html lang="id">
