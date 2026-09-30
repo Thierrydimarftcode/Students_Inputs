@@ -4,7 +4,7 @@ if($_SESSION['status'] != "login"){
     header("location:login.php");
     exit();
 }
-include 'koneksi.php';
+include 'config/koneksi.php';
 $id = $_GET['id'];
 $query = mysqli_query($koneksi, "SELECT * FROM mata_pelajaran WHERE id='$id'");
 $d = mysqli_fetch_array($query);
